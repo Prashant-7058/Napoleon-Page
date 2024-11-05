@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napoleon Bonaparte: The Rise of the French Emperor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            background-color: #2E3B4E;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .header p {
+            font-size: 1em;
+            margin-top: 5px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main-content {
+            flex: 3;
+            padding-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            text-align: center;
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #2E3B4E;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 1.5em;
+            color: #2E3B4E;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+        .quick-facts {
+            list-style: none;
+            padding: 0;
+            font-size: 1em;
+            color: #555;
+        }
+        .quick-facts li {
+            margin: 5px 0;
+        }
+        .quick-facts-container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 8px;
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            .main-content, .sidebar {
+                padding-right: 0;
+            }
+            .main-content {
+                order: 2;
+            }
+            .sidebar {
+                order: 1;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Napoleon Bonaparte: The Rise of the French Emperor</h1>
+            <p>An in-depth look at the life, campaigns, and legacy of one of history's most influential leaders</p>
+        </div>
+        <div class="content">
+            <div class="main-content">
+                <div class="section">
+                    <h2>Early Life and Military Beginnings</h2>
+                    <p><strong>Background and Education:</strong> Born in 1769 on the island of Corsica, Napoleon received a French military education, showing early signs of brilliance and ambition.</p>
+                    <p><strong>Initial Military Success:</strong> During the French Revolution, Napoleon gained fame through his victories, notably the Siege of Toulon, which marked his rapid ascent in the army.</p>
+                </div>
+                <div class="section">
+                    <h2>Campaigns and Conquests</h2>
+                    <p><strong>Italian Campaigns:</strong> Napoleon led successful campaigns in Italy, showcasing his strategic prowess and securing France’s influence over Northern Italy.</p>
+                    <p><strong>Egyptian Expedition:</strong> Though the Egyptian campaign had mixed outcomes, it solidified Napoleon's reputation and led to the discovery of the Rosetta Stone.</p>
+                </div>
+                <div class="section">
+                    <h2>The Rise to Emperor</h2>
+                    <p><strong>Consulate and Empire:</strong> In 1799, Napoleon seized power in a coup, becoming First Consul, and later declared himself Emperor of the French in 1804, introducing significant reforms.</p>
+                    <p><strong>Napoleonic Code:</strong> His legal reforms, the Napoleonic Code, transformed European legal systems, promoting equality before the law and civil rights.</p>
+                </div>
+                <div class="section">
+                    <h2>The Fall and Exile</h2>
+                    <p><strong>Russian Campaign and Defeat:</strong> The disastrous Russian campaign in 1812 marked the decline of Napoleon’s empire, leading to defeats across Europe.</p>
+                    <p><strong>Exile and Return:</strong> After his defeat, Napoleon was exiled to Elba, returned briefly during the Hundred Days, and was ultimately defeated at Waterloo, leading to his final exile on Saint Helena.</p>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h3>Quick Facts</h3>
+                <div class="quick-facts-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Napole%C3%B3n_Bonaparte.jpg" alt="Napoleon Bonaparte Quick Facts" />
+                    <ul class="quick-facts">
+                        <li><strong>Name:</strong> Napoleon Bonaparte</li>
+                        <li><strong>Born:</strong> August 15, 1769</li>
+                        <li><strong>Titles:</strong> Emperor of the French</li>
+                        <li><strong>Major Battles:</strong> Austerlitz, Waterloo</li>
+                        <li><strong>Famous Reform:</strong> Napoleonic Code</li>
+                        <li><strong>Exiled:</strong> Elba, Saint Helena</li>
+                        <li><strong>Legacy:</strong> Legal reforms, military strategy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
