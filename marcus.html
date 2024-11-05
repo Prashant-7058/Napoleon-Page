@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Aurelius: The Philosopher Emperor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 95%; /* Max width for larger screens */
+            max-width: 1200px; /* Limit width for larger screens */
+            margin: 0 auto; /* Center align the container */
+            background-color: white;
+            padding: 15px; /* Padding around the content */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            background-color: #2E3B4E;
+            color: white;
+            padding: 15px; /* Padding around header */
+            margin-bottom: 15px; /* Space below header */
+            border-radius: 8px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.8em; /* Font size for the title */
+        }
+        .header p {
+            font-size: 1em; /* Font size for the subtitle */
+            margin-top: 5px;
+        }
+        .content {
+            display: flex; /* Flexbox for layout */
+            flex-wrap: wrap; /* Wrap content on smaller screens */
+        }
+        .main-content {
+            flex: 3; /* Take 3 parts of the available space */
+            padding-right: 15px; /* Space between main and sidebar */
+            box-sizing: border-box; /* Include padding in width */
+        }
+        .sidebar {
+            flex: 1; /* Take 1 part of the available space */
+            background-color: #f7f7f7; /* Background color for sidebar */
+            padding: 15px; /* Padding inside the sidebar */
+            margin-top: 15px; /* Space above the sidebar */
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            text-align: center; /* Center align the sidebar header */
+            margin-top: 0; /* No margin above */
+            font-size: 1.4em; /* Font size for sidebar header */
+            color: #2E3B4E;
+        }
+        .section {
+            margin-bottom: 15px; /* Space below each section */
+        }
+        .section h2 {
+            font-size: 1.4em; /* Font size for section headers */
+            color: #2E3B4E;
+            border-bottom: 2px solid #ddd; /* Underline for section headers */
+            padding-bottom: 5px; /* Space below section header */
+        }
+        .section p {
+            font-size: 0.95em; /* Font size for paragraphs */
+            line-height: 1.6; /* Line height for readability */
+            color: #333; /* Color for paragraph text */
+        }
+        .quick-facts {
+            list-style: none; /* Remove list styling */
+            padding: 0; /* No padding */
+            font-size: 0.95em; /* Font size for quick facts */
+            color: #555; /* Color for quick facts */
+        }
+        .quick-facts li {
+            margin: 5px 0; /* Space between quick facts */
+        }
+        .quick-facts-container {
+            text-align: center; /* Center align the quick facts */
+        }
+        img {
+            max-width: 100%; /* Responsive image */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Block display for images */
+            margin-left: auto; /* Margin above and below image */
+            margin-right: auto;
+            border-radius: 8px; /* Rounded corners */
+
+
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column; /* Stack content vertically */
+            }
+            .main-content, .sidebar {
+                padding-right: 0; /* Remove right padding */
+            }
+            .main-content {
+                order: 2; /* Ensure main content appears below sidebar */
+            }
+            .sidebar {
+                order: 1; /* Sidebar appears first */
+                margin-bottom: 15px; /* Space below sidebar */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Marcus Aurelius: The Philosopher Emperor</h1>
+            <p>Exploring the life, reign, and philosophical legacy of Rome's Stoic ruler</p>
+        </div>
+        <div class="content">
+            <div class="main-content">
+                <div class="section">
+                    <h2>Early Life and Rise to Power</h2>
+                    <p><strong>Birth and Family:</strong> Born in 121 AD, Marcus Aurelius came from a wealthy Roman family, receiving a prestigious education that shaped his Stoic philosophy.</p>
+                    <p><strong>Adoption and Succession:</strong> Adopted by Emperor Antoninus Pius, Marcus was groomed to succeed him, preparing for leadership in a time of challenges.</p>
+                </div>
+                <div class="section">
+                    <h2>The Reign of Marcus Aurelius</h2>
+                    <p><strong>Co-Emperor with Lucius Verus:</strong> Upon Antoninus’s death, Marcus ruled alongside his adoptive brother, Lucius Verus, facing both military campaigns and natural disasters together.</p>
+                    <p><strong>Military Campaigns:</strong> His reign was marked by ongoing conflicts along Rome's borders, particularly against Germanic tribes, requiring Marcus’s presence on the battlefield.</p>
+                </div>
+                <div class="section">
+                    <h2>The *Meditations* and Philosophy</h2>
+                    <p><strong>Writing of the *Meditations*:</strong> Composed as personal reflections during his military campaigns, *Meditations* reveal Marcus’s commitment to Stoic principles.</p>
+                    <p><strong>Stoic Philosophy:</strong> Marcus’s writings emphasize self-discipline, compassion, and the transient nature of human life, advocating for duty and resilience.</p>
+                </div>
+                <div class="section">
+                    <h2>Legacy and Cultural Impact</h2>
+                    <p><strong>Ideal of the Philosopher-King:</strong> Marcus is often seen as the ideal philosopher-king, combining wisdom with leadership, and his reign is considered one of Rome’s high points.</p>
+                    <p><strong>End of the Pax Romana:</strong> His death marked the end of the Pax Romana, with his son Commodus’s rule contrasting sharply with his legacy.</p>
+                </div>
+                <div class="section">
+                    <h2>Modern Reflections on Marcus Aurelius</h2>
+                    <p><strong>Influence on Modern Philosophy:</strong> *Meditations* continues to inspire readers, valued for its insights into personal growth and resilience.</p>
+                    <p><strong>Symbol of Strength:</strong> Marcus represents a model of strength through wisdom, reminding leaders of the power of virtue in times of adversity.</p>
+                </div>
+            </div>
+            <div class="sidebar">
+                <h3>Quick Facts</h3>
+                <div class="quick-facts-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62bpN5hFEwIhKR6KNRvFkFTsxWIKLWISaIw&s" alt="Bust of Marcus Aurelius" />
+                    <ul class="quick-facts">
+                        <li><strong>Name:</strong> Marcus Aurelius</li>
+                        <li><strong>Born:</strong> 121 AD</li>
+                        <li><strong>Reign:</strong> 161-180 AD</li>
+                        <li><strong>Known For:</strong> *Meditations*, Stoic Philosophy</li>
+                        <li><strong>Main Philosophical Focus:</strong> Duty, Resilience, Acceptance</li>
+                        <li><strong>Co-Ruler:</strong> Lucius Verus (161-169 AD)</li>
+                        <li><strong>Legacy:</strong> Philosopher-King, End of Pax Romana</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
